@@ -1,0 +1,76 @@
+@media only screen and (max-width: 300px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    height: 10vh;
+    width: 100vw;
+  }
+
+  li {
+    display: block;
+    padding: 1vb;
+    font-weight: none;
+  }
+
+  .name {
+    font-size: medium;
+    /* padding-left: 20vw; */
+    padding-left: 12vb;
+  }
+
+  footer {
+    height: 5vh;
+    /* position: fixed; */
+
+  }
+  .introduction{
+    width: auto;
+    text-overflow: clip;
+    margin-top:3vb;
+    height: 20vh;
+    max-height: 20vh;
+  }
+  /* body{
+    background-image: url('/Lucky.jpg');
+  } */
+}
+
+
+@media only screen and (max-width: 850px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    height: 15vh;
+    width: 100vw;
+  }
+
+  li {
+    display: block;
+    padding: 1vb;
+    font-weight: bold;
+  }
+
+  .name {
+    font-size: medium;
+    /* padding-left: 20vw; */
+    padding-left: 12vb;
+    padding-top:2vb;
+  }
+
+  footer {
+    height: 5vh;
+    margin-top: 6vb;
+  }
+  /* body{
+    background-image: url('/Lucky.jpg');
+  } */
+  image{
+    display: inline-block;
+  }
+}

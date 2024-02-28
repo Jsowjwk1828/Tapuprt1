@@ -1,0 +1,82 @@
+main{
+    /* background-color:; */
+    height: calc(100vh - 10vh - 10vh);
+}
+h1{
+    text-align: center;
+    /* background-color: white; */
+    color:chartreuse ;
+    padding: 2px;
+    /* background-color: ; */
+}
+.container{
+    display: flex;
+    border: 2px solid blue;
+    /* background-color: rgb(251, 255, 6); */
+    /* background-color: black; */
+    /* display: flex; */
+}
+.info{
+    /* background-color: rgb(251, 255, 6); */
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 2vb;
+    width: 50vw;
+}
+.cont{
+    /* background-color:rgb(247, 247, 247); */
+    background-color: rgb(251, 255, 6);
+
+    color: crimson;
+    width: 50vw;
+    border: 5px solid lime;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+    cursor: default;
+
+}
+
+.info_result{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 2vb;
+    width: 50vw;
+}
+
+.pont{
+    /* background-color:rgb(247, 247, 247); */
+    background-color: rgb(251, 255, 6);
+    cursor: default;
+    color:darkturquoise;
+    width: 50vw;
+    border: 5px solid lime;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+}
+.introduction{
+    margin-top: 2vw;
+    background-color: skyblue;
+    border: 5px solid blue;
+    border-radius: 5px;
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+    font-size: large;
+    max-height: 38vh;
+    overflow: auto;
+    cursor: default;
+}
+big{
+    color: crimson;
+}
+.intro{
+    font-size: larger;
+    font-weight: 500;
+    cursor: default;
+    color: black;
+}

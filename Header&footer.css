@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(/tapu.png);
+  background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ overflow: auto;
+}
+header {
+  background-color: black;
+
+  /* align-content: ; */
+}
+.navbar {
+  top: 5px;
+  background-color: black;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  align-items: center;
+  /* position: fixed; */
+}
+
+.progress {
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: o;
+  width: 100%;
+  animation: load 2s ease-in forwards;
+}
+.progressbar {
+  height: 100%;
+}
+li {
+  display: inline;
+  padding: 2vb;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font: optional;
+}
+.li {
+  text-decoration: none;
+  color: white;
+  font: optional;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer {
+  background-color: gray;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  /* animation: Glint  7s infinite; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  fill-opacity: inherit;
+  cursor: default;
+}
+/* .logo{
+    width: 50vw;
+} */
